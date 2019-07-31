@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Gobang"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/bxs863/Desktop/Gobang/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/bxs863/Desktop/Gobang/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/bxs863/Desktop/Gobang/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/bxs863/Desktop/Gobang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/bxs863/Desktop/Gobang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/bxs863/Desktop/Gobang/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/bxs863/Desktop/Gobang/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/bxs863/Desktop/Gobang/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/bxs863/Desktop/Gobang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/bxs863/Desktop/Gobang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Gobang">
+				<Option output="C:/Users/bxs863/Desktop/Gobang/cmake-build-debug/Gobang.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/bxs863/Desktop/Gobang/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/bxs863/Desktop/Gobang/../SFML/SFML-2.5.1/include"/>
+					<Add directory="c:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/8.2.0/../../../../include/c++/8.2.0"/>
+					<Add directory="c:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/8.2.0/../../../../include/c++/8.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/8.2.0/../../../../include/c++/8.2.0/backward"/>
+					<Add directory="c:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/8.2.0/include-fixed"/>
+					<Add directory="c:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/8.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/bxs863/Desktop/Gobang/cmake-build-debug/Makefile&quot;  VERBOSE=1 Gobang"/>
+					<CompileFile command="C:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/bxs863/Desktop/Gobang/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/bxs863/Desktop/Gobang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/bxs863/Desktop/Gobang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Gobang/fast">
+				<Option output="C:/Users/bxs863/Desktop/Gobang/cmake-build-debug/Gobang.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/bxs863/Desktop/Gobang/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/bxs863/Desktop/Gobang/../SFML/SFML-2.5.1/include"/>
+					<Add directory="c:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/8.2.0/../../../../include/c++/8.2.0"/>
+					<Add directory="c:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/8.2.0/../../../../include/c++/8.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/8.2.0/../../../../include/c++/8.2.0/backward"/>
+					<Add directory="c:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/8.2.0/include-fixed"/>
+					<Add directory="c:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/8.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/bxs863/Desktop/Gobang/cmake-build-debug/Makefile&quot;  VERBOSE=1 Gobang/fast"/>
+					<CompileFile command="C:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/bxs863/Desktop/Gobang/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/bxs863/Desktop/Gobang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/bxs863/Desktop/Gobang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/bxs863/Desktop/Gobang/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/bxs863/Desktop/Gobang/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/bxs863/Desktop/Gobang/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/bxs863/Desktop/Gobang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/bxs863/Desktop/Gobang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/bxs863/Desktop/Gobang/ChessDetail/ChessBoard.cpp">
+			<Option target="Gobang"/>
+		</Unit>
+		<Unit filename="C:/Users/bxs863/Desktop/Gobang/ChessDetail/ChessBoard.h">
+			<Option target="Gobang"/>
+		</Unit>
+		<Unit filename="C:/Users/bxs863/Desktop/Gobang/DoubleGameScene.cpp">
+			<Option target="Gobang"/>
+		</Unit>
+		<Unit filename="C:/Users/bxs863/Desktop/Gobang/DoubleGameScene.h">
+			<Option target="Gobang"/>
+		</Unit>
+		<Unit filename="C:/Users/bxs863/Desktop/Gobang/EndScene.cpp">
+			<Option target="Gobang"/>
+		</Unit>
+		<Unit filename="C:/Users/bxs863/Desktop/Gobang/EndScene.h">
+			<Option target="Gobang"/>
+		</Unit>
+		<Unit filename="C:/Users/bxs863/Desktop/Gobang/MenuScene.cpp">
+			<Option target="Gobang"/>
+		</Unit>
+		<Unit filename="C:/Users/bxs863/Desktop/Gobang/MenuScene.h">
+			<Option target="Gobang"/>
+		</Unit>
+		<Unit filename="C:/Users/bxs863/Desktop/Gobang/Scene.cpp">
+			<Option target="Gobang"/>
+		</Unit>
+		<Unit filename="C:/Users/bxs863/Desktop/Gobang/Scene.h">
+			<Option target="Gobang"/>
+		</Unit>
+		<Unit filename="C:/Users/bxs863/Desktop/Gobang/SingleGameScene.cpp">
+			<Option target="Gobang"/>
+		</Unit>
+		<Unit filename="C:/Users/bxs863/Desktop/Gobang/SingleGameScene.h">
+			<Option target="Gobang"/>
+		</Unit>
+		<Unit filename="C:/Users/bxs863/Desktop/Gobang/main.cpp">
+			<Option target="Gobang"/>
+		</Unit>
+		<Unit filename="C:/Users/bxs863/Desktop/Gobang/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
