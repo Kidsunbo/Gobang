@@ -1,3 +1,3 @@
-C:/Users/bxs863/Desktop/Gobang/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/bxs863/Desktop/Gobang/cmake-build-debug/CMakeFiles/Gobang.dir
-C:/Users/bxs863/Desktop/Gobang/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/bxs863/Desktop/GoMoKu/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/bxs863/Desktop/GoMoKu/cmake-build-debug/CMakeFiles/Gobang.dir
+C:/Users/bxs863/Desktop/GoMoKu/cmake-build-debug/CMakeFiles/edit_cache.dir

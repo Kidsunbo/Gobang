@@ -42,10 +42,10 @@ RM = C:\Users\bxs863\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\192.5728.10
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\bxs863\Desktop\Gobang
+CMAKE_SOURCE_DIR = C:\Users\bxs863\Desktop\GoMoKu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\bxs863\Desktop\Gobang\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\bxs863\Desktop\GoMoKu\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Gobang.dir/depend.make
@@ -59,100 +59,114 @@ include CMakeFiles/Gobang.dir/flags.make
 CMakeFiles/Gobang.dir/main.cpp.obj: CMakeFiles/Gobang.dir/flags.make
 CMakeFiles/Gobang.dir/main.cpp.obj: CMakeFiles/Gobang.dir/includes_CXX.rsp
 CMakeFiles/Gobang.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bxs863\Desktop\Gobang\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Gobang.dir/main.cpp.obj"
-	C:\MinGW\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Gobang.dir\main.cpp.obj -c C:\Users\bxs863\Desktop\Gobang\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bxs863\Desktop\GoMoKu\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Gobang.dir/main.cpp.obj"
+	C:\MinGW\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Gobang.dir\main.cpp.obj -c C:\Users\bxs863\Desktop\GoMoKu\main.cpp
 
 CMakeFiles/Gobang.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gobang.dir/main.cpp.i"
-	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\bxs863\Desktop\Gobang\main.cpp > CMakeFiles\Gobang.dir\main.cpp.i
+	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\bxs863\Desktop\GoMoKu\main.cpp > CMakeFiles\Gobang.dir\main.cpp.i
 
 CMakeFiles/Gobang.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gobang.dir/main.cpp.s"
-	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bxs863\Desktop\Gobang\main.cpp -o CMakeFiles\Gobang.dir\main.cpp.s
+	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bxs863\Desktop\GoMoKu\main.cpp -o CMakeFiles\Gobang.dir\main.cpp.s
 
 CMakeFiles/Gobang.dir/Scene.cpp.obj: CMakeFiles/Gobang.dir/flags.make
 CMakeFiles/Gobang.dir/Scene.cpp.obj: CMakeFiles/Gobang.dir/includes_CXX.rsp
 CMakeFiles/Gobang.dir/Scene.cpp.obj: ../Scene.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bxs863\Desktop\Gobang\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Gobang.dir/Scene.cpp.obj"
-	C:\MinGW\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Gobang.dir\Scene.cpp.obj -c C:\Users\bxs863\Desktop\Gobang\Scene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bxs863\Desktop\GoMoKu\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Gobang.dir/Scene.cpp.obj"
+	C:\MinGW\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Gobang.dir\Scene.cpp.obj -c C:\Users\bxs863\Desktop\GoMoKu\Scene.cpp
 
 CMakeFiles/Gobang.dir/Scene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gobang.dir/Scene.cpp.i"
-	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\bxs863\Desktop\Gobang\Scene.cpp > CMakeFiles\Gobang.dir\Scene.cpp.i
+	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\bxs863\Desktop\GoMoKu\Scene.cpp > CMakeFiles\Gobang.dir\Scene.cpp.i
 
 CMakeFiles/Gobang.dir/Scene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gobang.dir/Scene.cpp.s"
-	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bxs863\Desktop\Gobang\Scene.cpp -o CMakeFiles\Gobang.dir\Scene.cpp.s
+	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bxs863\Desktop\GoMoKu\Scene.cpp -o CMakeFiles\Gobang.dir\Scene.cpp.s
 
 CMakeFiles/Gobang.dir/MenuScene.cpp.obj: CMakeFiles/Gobang.dir/flags.make
 CMakeFiles/Gobang.dir/MenuScene.cpp.obj: CMakeFiles/Gobang.dir/includes_CXX.rsp
 CMakeFiles/Gobang.dir/MenuScene.cpp.obj: ../MenuScene.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bxs863\Desktop\Gobang\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Gobang.dir/MenuScene.cpp.obj"
-	C:\MinGW\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Gobang.dir\MenuScene.cpp.obj -c C:\Users\bxs863\Desktop\Gobang\MenuScene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bxs863\Desktop\GoMoKu\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Gobang.dir/MenuScene.cpp.obj"
+	C:\MinGW\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Gobang.dir\MenuScene.cpp.obj -c C:\Users\bxs863\Desktop\GoMoKu\MenuScene.cpp
 
 CMakeFiles/Gobang.dir/MenuScene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gobang.dir/MenuScene.cpp.i"
-	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\bxs863\Desktop\Gobang\MenuScene.cpp > CMakeFiles\Gobang.dir\MenuScene.cpp.i
+	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\bxs863\Desktop\GoMoKu\MenuScene.cpp > CMakeFiles\Gobang.dir\MenuScene.cpp.i
 
 CMakeFiles/Gobang.dir/MenuScene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gobang.dir/MenuScene.cpp.s"
-	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bxs863\Desktop\Gobang\MenuScene.cpp -o CMakeFiles\Gobang.dir\MenuScene.cpp.s
+	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bxs863\Desktop\GoMoKu\MenuScene.cpp -o CMakeFiles\Gobang.dir\MenuScene.cpp.s
 
 CMakeFiles/Gobang.dir/EndScene.cpp.obj: CMakeFiles/Gobang.dir/flags.make
 CMakeFiles/Gobang.dir/EndScene.cpp.obj: CMakeFiles/Gobang.dir/includes_CXX.rsp
 CMakeFiles/Gobang.dir/EndScene.cpp.obj: ../EndScene.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bxs863\Desktop\Gobang\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Gobang.dir/EndScene.cpp.obj"
-	C:\MinGW\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Gobang.dir\EndScene.cpp.obj -c C:\Users\bxs863\Desktop\Gobang\EndScene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bxs863\Desktop\GoMoKu\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Gobang.dir/EndScene.cpp.obj"
+	C:\MinGW\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Gobang.dir\EndScene.cpp.obj -c C:\Users\bxs863\Desktop\GoMoKu\EndScene.cpp
 
 CMakeFiles/Gobang.dir/EndScene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gobang.dir/EndScene.cpp.i"
-	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\bxs863\Desktop\Gobang\EndScene.cpp > CMakeFiles\Gobang.dir\EndScene.cpp.i
+	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\bxs863\Desktop\GoMoKu\EndScene.cpp > CMakeFiles\Gobang.dir\EndScene.cpp.i
 
 CMakeFiles/Gobang.dir/EndScene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gobang.dir/EndScene.cpp.s"
-	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bxs863\Desktop\Gobang\EndScene.cpp -o CMakeFiles\Gobang.dir\EndScene.cpp.s
+	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bxs863\Desktop\GoMoKu\EndScene.cpp -o CMakeFiles\Gobang.dir\EndScene.cpp.s
 
 CMakeFiles/Gobang.dir/SingleGameScene.cpp.obj: CMakeFiles/Gobang.dir/flags.make
 CMakeFiles/Gobang.dir/SingleGameScene.cpp.obj: CMakeFiles/Gobang.dir/includes_CXX.rsp
 CMakeFiles/Gobang.dir/SingleGameScene.cpp.obj: ../SingleGameScene.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bxs863\Desktop\Gobang\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Gobang.dir/SingleGameScene.cpp.obj"
-	C:\MinGW\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Gobang.dir\SingleGameScene.cpp.obj -c C:\Users\bxs863\Desktop\Gobang\SingleGameScene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bxs863\Desktop\GoMoKu\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Gobang.dir/SingleGameScene.cpp.obj"
+	C:\MinGW\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Gobang.dir\SingleGameScene.cpp.obj -c C:\Users\bxs863\Desktop\GoMoKu\SingleGameScene.cpp
 
 CMakeFiles/Gobang.dir/SingleGameScene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gobang.dir/SingleGameScene.cpp.i"
-	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\bxs863\Desktop\Gobang\SingleGameScene.cpp > CMakeFiles\Gobang.dir\SingleGameScene.cpp.i
+	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\bxs863\Desktop\GoMoKu\SingleGameScene.cpp > CMakeFiles\Gobang.dir\SingleGameScene.cpp.i
 
 CMakeFiles/Gobang.dir/SingleGameScene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gobang.dir/SingleGameScene.cpp.s"
-	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bxs863\Desktop\Gobang\SingleGameScene.cpp -o CMakeFiles\Gobang.dir\SingleGameScene.cpp.s
+	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bxs863\Desktop\GoMoKu\SingleGameScene.cpp -o CMakeFiles\Gobang.dir\SingleGameScene.cpp.s
 
 CMakeFiles/Gobang.dir/DoubleGameScene.cpp.obj: CMakeFiles/Gobang.dir/flags.make
 CMakeFiles/Gobang.dir/DoubleGameScene.cpp.obj: CMakeFiles/Gobang.dir/includes_CXX.rsp
 CMakeFiles/Gobang.dir/DoubleGameScene.cpp.obj: ../DoubleGameScene.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bxs863\Desktop\Gobang\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Gobang.dir/DoubleGameScene.cpp.obj"
-	C:\MinGW\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Gobang.dir\DoubleGameScene.cpp.obj -c C:\Users\bxs863\Desktop\Gobang\DoubleGameScene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bxs863\Desktop\GoMoKu\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Gobang.dir/DoubleGameScene.cpp.obj"
+	C:\MinGW\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Gobang.dir\DoubleGameScene.cpp.obj -c C:\Users\bxs863\Desktop\GoMoKu\DoubleGameScene.cpp
 
 CMakeFiles/Gobang.dir/DoubleGameScene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gobang.dir/DoubleGameScene.cpp.i"
-	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\bxs863\Desktop\Gobang\DoubleGameScene.cpp > CMakeFiles\Gobang.dir\DoubleGameScene.cpp.i
+	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\bxs863\Desktop\GoMoKu\DoubleGameScene.cpp > CMakeFiles\Gobang.dir\DoubleGameScene.cpp.i
 
 CMakeFiles/Gobang.dir/DoubleGameScene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gobang.dir/DoubleGameScene.cpp.s"
-	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bxs863\Desktop\Gobang\DoubleGameScene.cpp -o CMakeFiles\Gobang.dir\DoubleGameScene.cpp.s
+	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bxs863\Desktop\GoMoKu\DoubleGameScene.cpp -o CMakeFiles\Gobang.dir\DoubleGameScene.cpp.s
 
-CMakeFiles/Gobang.dir/ChessDetail/ChessBoard.cpp.obj: CMakeFiles/Gobang.dir/flags.make
-CMakeFiles/Gobang.dir/ChessDetail/ChessBoard.cpp.obj: CMakeFiles/Gobang.dir/includes_CXX.rsp
-CMakeFiles/Gobang.dir/ChessDetail/ChessBoard.cpp.obj: ../ChessDetail/ChessBoard.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bxs863\Desktop\Gobang\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Gobang.dir/ChessDetail/ChessBoard.cpp.obj"
-	C:\MinGW\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Gobang.dir\ChessDetail\ChessBoard.cpp.obj -c C:\Users\bxs863\Desktop\Gobang\ChessDetail\ChessBoard.cpp
+CMakeFiles/Gobang.dir/ChessDetail/MenuBackGround.cpp.obj: CMakeFiles/Gobang.dir/flags.make
+CMakeFiles/Gobang.dir/ChessDetail/MenuBackGround.cpp.obj: CMakeFiles/Gobang.dir/includes_CXX.rsp
+CMakeFiles/Gobang.dir/ChessDetail/MenuBackGround.cpp.obj: ../ChessDetail/MenuBackGround.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bxs863\Desktop\GoMoKu\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Gobang.dir/ChessDetail/MenuBackGround.cpp.obj"
+	C:\MinGW\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Gobang.dir\ChessDetail\MenuBackGround.cpp.obj -c C:\Users\bxs863\Desktop\GoMoKu\ChessDetail\MenuBackGround.cpp
 
-CMakeFiles/Gobang.dir/ChessDetail/ChessBoard.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gobang.dir/ChessDetail/ChessBoard.cpp.i"
-	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\bxs863\Desktop\Gobang\ChessDetail\ChessBoard.cpp > CMakeFiles\Gobang.dir\ChessDetail\ChessBoard.cpp.i
+CMakeFiles/Gobang.dir/ChessDetail/MenuBackGround.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gobang.dir/ChessDetail/MenuBackGround.cpp.i"
+	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\bxs863\Desktop\GoMoKu\ChessDetail\MenuBackGround.cpp > CMakeFiles\Gobang.dir\ChessDetail\MenuBackGround.cpp.i
 
-CMakeFiles/Gobang.dir/ChessDetail/ChessBoard.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gobang.dir/ChessDetail/ChessBoard.cpp.s"
-	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bxs863\Desktop\Gobang\ChessDetail\ChessBoard.cpp -o CMakeFiles\Gobang.dir\ChessDetail\ChessBoard.cpp.s
+CMakeFiles/Gobang.dir/ChessDetail/MenuBackGround.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gobang.dir/ChessDetail/MenuBackGround.cpp.s"
+	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bxs863\Desktop\GoMoKu\ChessDetail\MenuBackGround.cpp -o CMakeFiles\Gobang.dir\ChessDetail\MenuBackGround.cpp.s
+
+CMakeFiles/Gobang.dir/ChessDetail/CheckBoard.cpp.obj: CMakeFiles/Gobang.dir/flags.make
+CMakeFiles/Gobang.dir/ChessDetail/CheckBoard.cpp.obj: CMakeFiles/Gobang.dir/includes_CXX.rsp
+CMakeFiles/Gobang.dir/ChessDetail/CheckBoard.cpp.obj: ../ChessDetail/CheckBoard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bxs863\Desktop\GoMoKu\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Gobang.dir/ChessDetail/CheckBoard.cpp.obj"
+	C:\MinGW\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Gobang.dir\ChessDetail\CheckBoard.cpp.obj -c C:\Users\bxs863\Desktop\GoMoKu\ChessDetail\CheckBoard.cpp
+
+CMakeFiles/Gobang.dir/ChessDetail/CheckBoard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gobang.dir/ChessDetail/CheckBoard.cpp.i"
+	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\bxs863\Desktop\GoMoKu\ChessDetail\CheckBoard.cpp > CMakeFiles\Gobang.dir\ChessDetail\CheckBoard.cpp.i
+
+CMakeFiles/Gobang.dir/ChessDetail/CheckBoard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gobang.dir/ChessDetail/CheckBoard.cpp.s"
+	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bxs863\Desktop\GoMoKu\ChessDetail\CheckBoard.cpp -o CMakeFiles\Gobang.dir\ChessDetail\CheckBoard.cpp.s
 
 # Object files for target Gobang
 Gobang_OBJECTS = \
@@ -162,7 +176,8 @@ Gobang_OBJECTS = \
 "CMakeFiles/Gobang.dir/EndScene.cpp.obj" \
 "CMakeFiles/Gobang.dir/SingleGameScene.cpp.obj" \
 "CMakeFiles/Gobang.dir/DoubleGameScene.cpp.obj" \
-"CMakeFiles/Gobang.dir/ChessDetail/ChessBoard.cpp.obj"
+"CMakeFiles/Gobang.dir/ChessDetail/MenuBackGround.cpp.obj" \
+"CMakeFiles/Gobang.dir/ChessDetail/CheckBoard.cpp.obj"
 
 # External object files for target Gobang
 Gobang_EXTERNAL_OBJECTS =
@@ -173,7 +188,8 @@ Gobang.exe: CMakeFiles/Gobang.dir/MenuScene.cpp.obj
 Gobang.exe: CMakeFiles/Gobang.dir/EndScene.cpp.obj
 Gobang.exe: CMakeFiles/Gobang.dir/SingleGameScene.cpp.obj
 Gobang.exe: CMakeFiles/Gobang.dir/DoubleGameScene.cpp.obj
-Gobang.exe: CMakeFiles/Gobang.dir/ChessDetail/ChessBoard.cpp.obj
+Gobang.exe: CMakeFiles/Gobang.dir/ChessDetail/MenuBackGround.cpp.obj
+Gobang.exe: CMakeFiles/Gobang.dir/ChessDetail/CheckBoard.cpp.obj
 Gobang.exe: CMakeFiles/Gobang.dir/build.make
 Gobang.exe: C:/Users/bxs863/Desktop/SFML/SFML-2.5.1/lib/libsfml-graphics-s.a
 Gobang.exe: C:/Users/bxs863/Desktop/SFML/SFML-2.5.1/lib/libsfml-window-s.a
@@ -183,7 +199,7 @@ Gobang.exe: C:/Users/bxs863/Desktop/SFML/SFML-2.5.1/lib/libfreetype.a
 Gobang.exe: CMakeFiles/Gobang.dir/linklibs.rsp
 Gobang.exe: CMakeFiles/Gobang.dir/objects1.rsp
 Gobang.exe: CMakeFiles/Gobang.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\bxs863\Desktop\Gobang\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Gobang.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\bxs863\Desktop\GoMoKu\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Gobang.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Gobang.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -196,6 +212,6 @@ CMakeFiles/Gobang.dir/clean:
 .PHONY : CMakeFiles/Gobang.dir/clean
 
 CMakeFiles/Gobang.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\bxs863\Desktop\Gobang C:\Users\bxs863\Desktop\Gobang C:\Users\bxs863\Desktop\Gobang\cmake-build-debug C:\Users\bxs863\Desktop\Gobang\cmake-build-debug C:\Users\bxs863\Desktop\Gobang\cmake-build-debug\CMakeFiles\Gobang.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\bxs863\Desktop\GoMoKu C:\Users\bxs863\Desktop\GoMoKu C:\Users\bxs863\Desktop\GoMoKu\cmake-build-debug C:\Users\bxs863\Desktop\GoMoKu\cmake-build-debug C:\Users\bxs863\Desktop\GoMoKu\cmake-build-debug\CMakeFiles\Gobang.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Gobang.dir/depend
 

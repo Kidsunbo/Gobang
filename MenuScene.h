@@ -6,18 +6,9 @@
 #define GOBANG_MENUSCENE_H
 
 #include "Scene.h"
-
+#include "ChessDetail/MenuBackGround.h"
 class MenuScene : public Scene{
 private:
-    sf::Font font;
-    sf::Text title;
-    sf::Text subtitle;
-
-    sf::Texture buttonTexture;
-    sf::RectangleShape buttonShape;
-
-
-
 
 
 public:

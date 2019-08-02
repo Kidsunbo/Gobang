@@ -47,10 +47,10 @@ RM = C:\Users\bxs863\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\192.5728.10
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\bxs863\Desktop\Gobang
+CMAKE_SOURCE_DIR = C:\Users\bxs863\Desktop\GoMoKu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\bxs863\Desktop\Gobang\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\bxs863\Desktop\GoMoKu\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\bxs863\Desktop\Gobang\cmake-build-debug\CMakeFiles C:\Users\bxs863\Desktop\Gobang\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\bxs863\Desktop\GoMoKu\cmake-build-debug\CMakeFiles C:\Users\bxs863\Desktop\GoMoKu\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\bxs863\Desktop\Gobang\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\bxs863\Desktop\GoMoKu\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,32 +122,59 @@ Gobang/fast:
 	$(MAKE) -f CMakeFiles\Gobang.dir\build.make CMakeFiles/Gobang.dir/build
 .PHONY : Gobang/fast
 
-ChessDetail/ChessBoard.obj: ChessDetail/ChessBoard.cpp.obj
+ChessDetail/CheckBoard.obj: ChessDetail/CheckBoard.cpp.obj
 
-.PHONY : ChessDetail/ChessBoard.obj
+.PHONY : ChessDetail/CheckBoard.obj
 
 # target to build an object file
-ChessDetail/ChessBoard.cpp.obj:
-	$(MAKE) -f CMakeFiles\Gobang.dir\build.make CMakeFiles/Gobang.dir/ChessDetail/ChessBoard.cpp.obj
-.PHONY : ChessDetail/ChessBoard.cpp.obj
+ChessDetail/CheckBoard.cpp.obj:
+	$(MAKE) -f CMakeFiles\Gobang.dir\build.make CMakeFiles/Gobang.dir/ChessDetail/CheckBoard.cpp.obj
+.PHONY : ChessDetail/CheckBoard.cpp.obj
 
-ChessDetail/ChessBoard.i: ChessDetail/ChessBoard.cpp.i
+ChessDetail/CheckBoard.i: ChessDetail/CheckBoard.cpp.i
 
-.PHONY : ChessDetail/ChessBoard.i
+.PHONY : ChessDetail/CheckBoard.i
 
 # target to preprocess a source file
-ChessDetail/ChessBoard.cpp.i:
-	$(MAKE) -f CMakeFiles\Gobang.dir\build.make CMakeFiles/Gobang.dir/ChessDetail/ChessBoard.cpp.i
-.PHONY : ChessDetail/ChessBoard.cpp.i
+ChessDetail/CheckBoard.cpp.i:
+	$(MAKE) -f CMakeFiles\Gobang.dir\build.make CMakeFiles/Gobang.dir/ChessDetail/CheckBoard.cpp.i
+.PHONY : ChessDetail/CheckBoard.cpp.i
 
-ChessDetail/ChessBoard.s: ChessDetail/ChessBoard.cpp.s
+ChessDetail/CheckBoard.s: ChessDetail/CheckBoard.cpp.s
 
-.PHONY : ChessDetail/ChessBoard.s
+.PHONY : ChessDetail/CheckBoard.s
 
 # target to generate assembly for a file
-ChessDetail/ChessBoard.cpp.s:
-	$(MAKE) -f CMakeFiles\Gobang.dir\build.make CMakeFiles/Gobang.dir/ChessDetail/ChessBoard.cpp.s
-.PHONY : ChessDetail/ChessBoard.cpp.s
+ChessDetail/CheckBoard.cpp.s:
+	$(MAKE) -f CMakeFiles\Gobang.dir\build.make CMakeFiles/Gobang.dir/ChessDetail/CheckBoard.cpp.s
+.PHONY : ChessDetail/CheckBoard.cpp.s
+
+ChessDetail/MenuBackGround.obj: ChessDetail/MenuBackGround.cpp.obj
+
+.PHONY : ChessDetail/MenuBackGround.obj
+
+# target to build an object file
+ChessDetail/MenuBackGround.cpp.obj:
+	$(MAKE) -f CMakeFiles\Gobang.dir\build.make CMakeFiles/Gobang.dir/ChessDetail/MenuBackGround.cpp.obj
+.PHONY : ChessDetail/MenuBackGround.cpp.obj
+
+ChessDetail/MenuBackGround.i: ChessDetail/MenuBackGround.cpp.i
+
+.PHONY : ChessDetail/MenuBackGround.i
+
+# target to preprocess a source file
+ChessDetail/MenuBackGround.cpp.i:
+	$(MAKE) -f CMakeFiles\Gobang.dir\build.make CMakeFiles/Gobang.dir/ChessDetail/MenuBackGround.cpp.i
+.PHONY : ChessDetail/MenuBackGround.cpp.i
+
+ChessDetail/MenuBackGround.s: ChessDetail/MenuBackGround.cpp.s
+
+.PHONY : ChessDetail/MenuBackGround.s
+
+# target to generate assembly for a file
+ChessDetail/MenuBackGround.cpp.s:
+	$(MAKE) -f CMakeFiles\Gobang.dir\build.make CMakeFiles/Gobang.dir/ChessDetail/MenuBackGround.cpp.s
+.PHONY : ChessDetail/MenuBackGround.cpp.s
 
 DoubleGameScene.obj: DoubleGameScene.cpp.obj
 
@@ -320,9 +347,12 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Gobang
 	@echo ... edit_cache
-	@echo ... ChessDetail/ChessBoard.obj
-	@echo ... ChessDetail/ChessBoard.i
-	@echo ... ChessDetail/ChessBoard.s
+	@echo ... ChessDetail/CheckBoard.obj
+	@echo ... ChessDetail/CheckBoard.i
+	@echo ... ChessDetail/CheckBoard.s
+	@echo ... ChessDetail/MenuBackGround.obj
+	@echo ... ChessDetail/MenuBackGround.i
+	@echo ... ChessDetail/MenuBackGround.s
 	@echo ... DoubleGameScene.obj
 	@echo ... DoubleGameScene.i
 	@echo ... DoubleGameScene.s

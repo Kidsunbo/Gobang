@@ -4,13 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/bxs863/Desktop/Gobang/ChessDetail/ChessBoard.cpp" "C:/Users/bxs863/Desktop/Gobang/cmake-build-debug/CMakeFiles/Gobang.dir/ChessDetail/ChessBoard.cpp.obj"
-  "C:/Users/bxs863/Desktop/Gobang/DoubleGameScene.cpp" "C:/Users/bxs863/Desktop/Gobang/cmake-build-debug/CMakeFiles/Gobang.dir/DoubleGameScene.cpp.obj"
-  "C:/Users/bxs863/Desktop/Gobang/EndScene.cpp" "C:/Users/bxs863/Desktop/Gobang/cmake-build-debug/CMakeFiles/Gobang.dir/EndScene.cpp.obj"
-  "C:/Users/bxs863/Desktop/Gobang/MenuScene.cpp" "C:/Users/bxs863/Desktop/Gobang/cmake-build-debug/CMakeFiles/Gobang.dir/MenuScene.cpp.obj"
-  "C:/Users/bxs863/Desktop/Gobang/Scene.cpp" "C:/Users/bxs863/Desktop/Gobang/cmake-build-debug/CMakeFiles/Gobang.dir/Scene.cpp.obj"
-  "C:/Users/bxs863/Desktop/Gobang/SingleGameScene.cpp" "C:/Users/bxs863/Desktop/Gobang/cmake-build-debug/CMakeFiles/Gobang.dir/SingleGameScene.cpp.obj"
-  "C:/Users/bxs863/Desktop/Gobang/main.cpp" "C:/Users/bxs863/Desktop/Gobang/cmake-build-debug/CMakeFiles/Gobang.dir/main.cpp.obj"
+  "C:/Users/bxs863/Desktop/GoMoKu/ChessDetail/CheckBoard.cpp" "C:/Users/bxs863/Desktop/GoMoKu/cmake-build-debug/CMakeFiles/Gobang.dir/ChessDetail/CheckBoard.cpp.obj"
+  "C:/Users/bxs863/Desktop/GoMoKu/ChessDetail/MenuBackGround.cpp" "C:/Users/bxs863/Desktop/GoMoKu/cmake-build-debug/CMakeFiles/Gobang.dir/ChessDetail/MenuBackGround.cpp.obj"
+  "C:/Users/bxs863/Desktop/GoMoKu/DoubleGameScene.cpp" "C:/Users/bxs863/Desktop/GoMoKu/cmake-build-debug/CMakeFiles/Gobang.dir/DoubleGameScene.cpp.obj"
+  "C:/Users/bxs863/Desktop/GoMoKu/EndScene.cpp" "C:/Users/bxs863/Desktop/GoMoKu/cmake-build-debug/CMakeFiles/Gobang.dir/EndScene.cpp.obj"
+  "C:/Users/bxs863/Desktop/GoMoKu/MenuScene.cpp" "C:/Users/bxs863/Desktop/GoMoKu/cmake-build-debug/CMakeFiles/Gobang.dir/MenuScene.cpp.obj"
+  "C:/Users/bxs863/Desktop/GoMoKu/Scene.cpp" "C:/Users/bxs863/Desktop/GoMoKu/cmake-build-debug/CMakeFiles/Gobang.dir/Scene.cpp.obj"
+  "C:/Users/bxs863/Desktop/GoMoKu/SingleGameScene.cpp" "C:/Users/bxs863/Desktop/GoMoKu/cmake-build-debug/CMakeFiles/Gobang.dir/SingleGameScene.cpp.obj"
+  "C:/Users/bxs863/Desktop/GoMoKu/main.cpp" "C:/Users/bxs863/Desktop/GoMoKu/cmake-build-debug/CMakeFiles/Gobang.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
