@@ -25,7 +25,6 @@ int main()
 
     while(scene>=0){
         scene = scenes[scene]->run(window);
-        std::cout<<scene<<std::endl;
     }
 
 
