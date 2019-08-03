@@ -17,9 +17,9 @@ int SingleGameScene::run(sf::RenderWindow &window) {
             if(event.type==sf::Event::Closed){
                 return -1;
             }
-            if(sf::Mouse::isButtonPressed(sf::Mouse::Left) && isMyTurn){
-                auto mouse_x = sf::Mouse::getPosition(window).x;
-                auto mouse_y = sf::Mouse::getPosition(window).y;
+            if(event.type==sf::Event::MouseButtonReleased && isMyTurn){
+                auto mouse_x = event.mouseButton.x;
+                auto mouse_y = event.mouseButton.y;
                 mouse_x-= (window.getSize().x - chessBoard.getChessBoardWidth()) / 2.0f;
                 mouse_y-=(window.getSize().y*0.15f);
                 int b_x = static_cast<int>((mouse_x+chessBoard.getStepLength()/2) / chessBoard.getStepLength());

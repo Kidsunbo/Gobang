@@ -17,6 +17,10 @@ private:
     sf::Texture bgTexure;
 
     sf::RectangleShape button1;
+    sf::Text fps;
+public:
+    sf::Text &getFps();
+
 public:
     const sf::RectangleShape &getButton1() const;
 

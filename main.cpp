@@ -13,7 +13,7 @@
 int main()
 {
     sf::RenderWindow window(sf::VideoMode{sf::VideoMode::getDesktopMode().width/2,sf::VideoMode::getDesktopMode().height/2}, "Gobang");
-
+    window.setFramerateLimit(30);
     std::vector<std::shared_ptr<Scene>> scenes;
 
     //0: menu 1:single 2:double 3:end

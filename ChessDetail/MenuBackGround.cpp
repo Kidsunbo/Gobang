@@ -5,6 +5,7 @@
 #define SFML_STATIC
 
 #include "MenuBackGround.h"
+#include <string>
 
 
 void MenuBackGround::draw(sf::RenderTarget &target, sf::RenderStates states) const {
@@ -14,6 +15,7 @@ void MenuBackGround::draw(sf::RenderTarget &target, sf::RenderStates states) con
     target.draw(text1,states);
     target.draw(text2,states);
     target.draw(title,states);
+    target.draw(fps,states);
 }
 
 MenuBackGround::MenuBackGround(sf::RenderWindow &window) {
@@ -49,6 +51,11 @@ MenuBackGround::MenuBackGround(sf::RenderWindow &window) {
     text2.setFillColor(sf::Color::Cyan);
     title.setFillColor(sf::Color::Black);
 
+    fps.setString(std::to_string(0));
+    fps.setPosition(10,10);
+    fps.setCharacterSize(20);
+    fps.setFont(font);
+    fps.setFillColor(sf::Color::Black);
 
 
 
@@ -68,4 +75,8 @@ sf::Text &MenuBackGround::getText1() {
 
 sf::Text &MenuBackGround::getText2() {
     return text2;
+}
+
+sf::Text &MenuBackGround::getFps() {
+    return fps;
 }

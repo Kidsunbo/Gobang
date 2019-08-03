@@ -4,16 +4,18 @@
 
 #include "MenuScene.h"
 #include <iostream>
+#include <string>
+
 using namespace std;
 int MenuScene::run(sf::RenderWindow& window) {
 
-    MenuBackGround chessBoard(window);
-    auto btn1_pos = chessBoard.getButton1().getPosition();
-    auto btn2_pos = chessBoard.getButton2().getPosition();
-    auto btn1_size = chessBoard.getButton1().getSize();
-    auto btn2_size = chessBoard.getButton2().getSize();
+    MenuBackGround menuBackGround(window);
+    auto btn1_pos = menuBackGround.getButton1().getPosition();
+    auto btn2_pos = menuBackGround.getButton2().getPosition();
+    auto btn1_size = menuBackGround.getButton1().getSize();
+    auto btn2_size = menuBackGround.getButton2().getSize();
 
-
+    sf::Clock clock;
     while(window.isOpen()){
 
         sf::Event event;
@@ -21,14 +23,14 @@ int MenuScene::run(sf::RenderWindow& window) {
             if(event.type ==sf::Event::Closed){return -1;}
             auto mouse = sf::Mouse::getPosition(window);
             if(mouse.x>btn1_pos.x&&mouse.x<btn1_pos.x+btn1_size.x && mouse.y>btn1_pos.y && mouse.y<btn1_pos.y+btn1_size.y){
-                chessBoard.getText1().setFillColor(sf::Color::Red);
+                menuBackGround.getText1().setFillColor(sf::Color::Red);
             }
-            else chessBoard.getText1().setFillColor(sf::Color::Cyan);
+            else menuBackGround.getText1().setFillColor(sf::Color::Cyan);
             if(mouse.x>btn2_pos.x&&mouse.x<btn2_pos.x+btn2_size.x && mouse.y>btn2_pos.y && mouse.y<btn2_pos.y+btn2_size.y){
-                chessBoard.getText2().setFillColor(sf::Color::Red);
+                menuBackGround.getText2().setFillColor(sf::Color::Red);
             }
-            else chessBoard.getText2().setFillColor(sf::Color::Cyan);
-            if(sf::Mouse::isButtonPressed(sf::Mouse::Left)){
+            else menuBackGround.getText2().setFillColor(sf::Color::Cyan);
+            if(event.type==sf::Event::MouseButtonReleased){
                 if(mouse.x>btn1_pos.x&&mouse.x<btn1_pos.x+btn1_size.x && mouse.y>btn1_pos.y && mouse.y<btn1_pos.y+btn1_size.y){
                     return 1;
                 }
@@ -38,8 +40,11 @@ int MenuScene::run(sf::RenderWindow& window) {
             }
         }
 
+        menuBackGround.getFps().setString(std::to_string(static_cast<int >(1/clock.restart().asSeconds())));
+
+
         window.clear();
-        window.draw(chessBoard);
+        window.draw(menuBackGround);
         window.display();
     }
     return -1;
